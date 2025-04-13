@@ -22,6 +22,18 @@ This project demonstrates how to automate the deployment of a Google Cloud infra
 
 ---
 
+## 🔐 Prerequisites
+
+- A GCP service account with appropriate IAM permissions:
+  - `Compute Admin`
+  - `Service Account User`
+- Jenkins with the following configured:
+  - Git plugin
+  - Terraform plugin or Terraform binary installed
+  - Credentials added for:
+    - `gcp-auth`: GCP service account JSON File
+    - `git-auth`: GitHub token (if private repo)
+
 ## 🔧 Jenkinsfile Explanation
 
 ```groovy
@@ -134,19 +146,6 @@ resource "google_compute_instance" "TestVM" {
 
 Creates a virtual machine in the subnet with Debian 11 image and connects it to the defined network.
 
----
-
-## 🔐 Prerequisites
-
-- A GCP service account with appropriate IAM permissions:
-  - `Compute Admin`
-  - `Service Account User`
-- Jenkins with the following configured:
-  - Git plugin
-  - Terraform plugin or Terraform binary installed
-  - Credentials added for:
-    - `gcp-auth`: GCP service account JSON File
-    - `git-auth`: GitHub token (if private repo)
 
 ---
 
