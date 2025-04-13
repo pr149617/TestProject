@@ -1,9 +1,7 @@
 provider "google" {
     
     project = "lateral-boulder-455508-r2"
-    credentials = file("D:/Knowledge/terraform/Terraform_jenkins/jenkinsvacckey.json")
-    
-  
+      
 }
 resource "google_compute_network" "TestVPC" {
    
