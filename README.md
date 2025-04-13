@@ -8,10 +8,8 @@ This project demonstrates how to automate the deployment of a Google Cloud infra
 ## 📂 Project Structure
 
 ```
-.
-├── Jenkinsfile         # CI/CD pipeline script
-├── main.tf             # Terraform configuration file
-├── .gitignore          # Git ignore rules
+![image](https://github.com/user-attachments/assets/4ee61353-86ff-4b2a-b17a-10fcd417809c)
+
 ```
 
 ---
