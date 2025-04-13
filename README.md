@@ -84,7 +84,7 @@ pipeline {
 
 ```hcl
 provider "google" {
-  project = "lateral-boulder-455508-r2"
+  project = "Your-Project-name"
 }
 ```
 
@@ -145,7 +145,7 @@ Creates a virtual machine in the subnet with Debian 11 image and connects it to 
   - Git plugin
   - Terraform plugin or Terraform binary installed
   - Credentials added for:
-    - `gcp-auth`: GCP service account JSON
+    - `gcp-auth`: GCP service account JSON File
     - `git-auth`: GitHub token (if private repo)
 
 ---
@@ -167,14 +167,6 @@ Creates a virtual machine in the subnet with Debian 11 image and connects it to 
 
 ---
 
-## 🧹 Cleanup
-
-To remove all created resources:
-```sh
-terraform destroy -auto-approve
-```
-
----
 
 ## ✅ Result
 
@@ -185,4 +177,4 @@ Once the pipeline completes, you’ll have:
 
 ---
 
-Happy Automating! 🚀
+
