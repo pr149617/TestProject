@@ -39,9 +39,4 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // No need to clean up gcp-key.json, as we aren't creating it anymore
-        }
-    }
 }
