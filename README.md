@@ -169,6 +169,9 @@ Creates a virtual machine in the subnet with Debian 11 image and connects it to 
 | gcp-auth   | Secret File      | GCP service account key    |
 | git-auth   | Secret Text      | GitHub personal access token |
 
+![image](https://github.com/user-attachments/assets/55cf65ac-1837-4249-81b0-c8843c464ed5)
+
+
 ---
 
 
