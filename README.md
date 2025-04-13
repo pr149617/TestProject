@@ -71,6 +71,10 @@ pipeline {
     }
 }
 ```
+#### PipeLine Configuration in Jenkins Console.
+
+![image](https://github.com/user-attachments/assets/164a964a-cd9b-43fb-9b80-84e282da52ff)
+
 
 ### 💡 How Jenkins Pipeline Works:
 - **Git Checkout**: Clones the `main` branch from GitHub
