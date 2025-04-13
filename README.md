@@ -8,7 +8,8 @@ This project demonstrates how to automate the deployment of a Google Cloud infra
 ## 📂 Project Structure
 
 ```
-![image](https://github.com/user-attachments/assets/4ee61353-86ff-4b2a-b17a-10fcd417809c)
+![ChatGPT Image Apr 13, 2025, 10_30_06 PM](https://github.com/user-attachments/assets/1e2d4da7-06a1-4857-a6ee-15fc4ebc27a4)
+
 
 ```
 
